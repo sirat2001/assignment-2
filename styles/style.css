@@ -60,3 +60,47 @@
     background-color: orange;
     transition: 0.5s;
  }
+ .nav-button:hover {
+    background-color: lightgreen;
+    scale: 1.1;
+ }
+ .horizontal {
+    display: none;
+ }
+ .banner {
+    max-width: 1159px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+ } 
+ .banner-parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 26px;
+ }
+ .banner-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+    max-width: 640px;
+ }
+ .banner-description {
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+    max-width: 640px;
+ }
+ .banner-button {
+    background-color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 47px;
+    border-radius: 12px;
+    transition: 0.5s;
+    border: none;
+ }
+ .banner-button:hover {
+    background-color: darkolivegreen;
+    scale: 1.1;
+ }
