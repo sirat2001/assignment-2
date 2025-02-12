@@ -1,0 +1,62 @@
+.font-size{
+    font-family: 'Quicksand', serif;
+   font-optical-sizing: auto;
+   font-weight: normal;
+   font-style: normal;
+}
+.display-flex{
+    display: flex;
+}
+.nav-parent {
+    max-width: 1159px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px 20px;
+ }
+ .school {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 18px;
+    position: relative;
+ }
+ .nav-logo {
+    width: 62px;
+    height: 62px;
+ }
+ .nav-links {
+    text-align: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+    bottom: 10px;
+ }
+ .nav-link {
+    text-decoration: none;
+ }
+ .nav-item {
+    list-style: none;
+    margin-top: 36px;
+ }
+ .orange {
+    color: orange;
+ }
+ .sky-blue {
+    color: rgb(8, 170, 234);
+ }
+ .facilities {
+    color: rgba(5, 212, 223, 1);
+ }
+ .admission {
+    color: rgba(93, 88, 239, 1);
+ }
+ .nav-button {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    background-color: orange;
+    transition: 0.5s;
+ }
